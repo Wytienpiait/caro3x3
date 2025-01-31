@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#tieude{
+    text-align: center;
+}
+
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    gap: 7px;
+}
+
+.cell{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.cell:hover{
+    background-color: rgb(3, 238, 238);
+}
+
+#back{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+#result{
+    font-size: 30px;
+    color: red;
+    background-color: rgb(74, 237, 191);
+}
+
