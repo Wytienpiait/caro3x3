@@ -41,10 +41,10 @@ $(document).ready(function() {
         let winner = kiemtra();
                 if (winner) {
                     if (winner === "draw") {
-                        $("#result").text("Hòa!");
+                        $("#result").text("Draw!");
                     } 
                     else {
-                        $("#result").text("Player "+ winner + " is Winner !");
+                        $("#result").text("Player "+ winner + " is Winner!");
                     }
                     $(".cell").off("click");
                     return;
