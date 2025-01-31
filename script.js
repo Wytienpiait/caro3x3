@@ -44,7 +44,7 @@ $(document).ready(function() {
                         $("#result").text("Hòa!");
                     } 
                     else {
-                        $("#result").text("Người chơi " + winner + " thắng!");
+                        $("#result").text("Player "+ winner + " is Winner !");
                     }
                     $(".cell").off("click");
                     return;
